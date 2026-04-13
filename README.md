@@ -1,15 +1,15 @@
 # Deepfake Audio Detection using Log-Mel Spectrogram & CNN
 
-**Author:** Mohammad Tyas Subianto, Daris Ikhwana Khoir Suhaya
+Author: Mohammad Tyas Subianto, Daris Ikhwana Khoir Suhaya
 
-**Accuracy:** 86% | **Recall (Fake):** 91%
+Accuracy: 86% | Recall (Fake): 91%
 
 ## Overview
-Project ini bertujuan untuk mendeteksi audio sintetis (*Deepfake*) menggunakan pendekatan **Pengolahan Sinyal Digital (PSD)**. Sistem mengubah sinyal suara menjadi representasi visual (**Log-Mel Spectrogram**) dan mengklasifikasikannya menggunakan **Convolutional Neural Network (CNN)**.
+This project aims to detect synthetic audio (Deepfakes) using a Digital Signal Processing (PSD) approach. The system converts the audio signal into a visual representation (Log-Mel Spectrogram) and classifies it using a Convolutional Neural Network (CNN).
 
 ## Key Results
-- **91% Recall pada kelas Fake**: Sistem sangat sensitif mendeteksi serangan manipulasi suara.
-- **Visual Evidence**: Ditemukan perbedaan pola distribusi energi yang signifikan antara suara asli dan palsu di domain frekuensi (cut-off frequency & checkerboard artifacts).
+- 91% Recall in the Fake class: The system is highly sensitive in detecting voice manipulation attacks.
+- Visual Evidence: Significant differences in energy distribution patterns were found between genuine and fake audio in the frequency domain (cut-off frequency and checkerboard artifacts).
 
 ## Tech Stack
 - **Language:** Python
@@ -18,15 +18,14 @@ Project ini bertujuan untuk mendeteksi audio sintetis (*Deepfake*) menggunakan p
 - **Visualization:** Matplotlib, Seaborn
 
 ## Dataset
-Project ini menggunakan **The Fake-or-Real (FoR) Dataset - 2 Seconds Version**.
-> **Catatan:** Dataset tidak disertakan dalam repo ini karena ukuran file yang besar.
-> Silakan unduh dataset asli di: [Link ke Sumber Dataset/Kaggle]
+This project uses **The Fake-or-Real (FoR) Dataset - 2 Seconds Version**.
+> **Note:** The dataset is not included in this repo due to its large file size.
+> Please download the original dataset at: [Link to Dataset Source/Kaggle]
 
 ## How to Run
-1. Clone repo ini.
-2. Download dataset dan letakkan di folder `for-2seconds`.
+1. Clone this repo.
+2. Download the dataset and place it in the `for-2seconds` folder.
 3. Install dependencies: `pip install librosa tensorflow matplotlib numpy`
-4. Jalankan notebook `Try FFT (1).ipynb`.
+4. Run the `Try FFT (1).ipynb` notebook.
 
 ---
-*Project ini dibuat untuk memenuhi Tugas Akhir mata kuliah Pengolahan Sinyal Digital.*
