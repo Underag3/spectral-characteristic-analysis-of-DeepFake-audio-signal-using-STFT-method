@@ -20,7 +20,7 @@ This project aims to detect synthetic audio (Deepfakes) using a Digital Signal P
 ## Dataset
 This project uses **The Fake-or-Real (FoR) Dataset - 2 Seconds Version**.
 > **Note:** The dataset is not included in this repo due to its large file size.
-> Please download the original dataset at: [Link to Dataset Source/Kaggle]
+> Please download the original dataset at: [https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset]
 
 ## How to Run
 1. Clone this repo.
