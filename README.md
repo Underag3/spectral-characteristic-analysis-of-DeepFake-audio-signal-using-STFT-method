@@ -26,6 +26,6 @@ This project uses **The Fake-or-Real (FoR) Dataset - 2 Seconds Version**.
 1. Clone this repo.
 2. Download the dataset and place it in the `for-2seconds` folder.
 3. Install dependencies: `pip install librosa tensorflow matplotlib numpy`
-4. Run the `Try FFT (1).ipynb` notebook.
+4. Run the `Source Code.ipynb` notebook.
 
 ---
